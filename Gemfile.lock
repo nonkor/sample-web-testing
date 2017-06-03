@@ -1,0 +1,55 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    builder (3.2.3)
+    byebug (9.0.6)
+    childprocess (0.7.0)
+      ffi (~> 1.0, >= 1.0.11)
+    cucumber (2.4.0)
+      builder (>= 2.1.2)
+      cucumber-core (~> 1.5.0)
+      cucumber-wire (~> 0.0.1)
+      diff-lcs (>= 1.1.3)
+      gherkin (~> 4.0)
+      multi_json (>= 1.7.5, < 2.0)
+      multi_test (>= 0.1.2)
+    cucumber-core (1.5.0)
+      gherkin (~> 4.0)
+    cucumber-wire (0.0.1)
+    diff-lcs (1.3)
+    ffi (1.9.18)
+    gherkin (4.1.3)
+    multi_json (1.12.1)
+    multi_test (0.1.2)
+    require_all (1.4.0)
+    rspec-expectations (3.6.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.6.0)
+    rspec-support (3.6.0)
+    rubyzip (1.2.1)
+    selenium-webdriver (3.4.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    watir (6.2.1)
+      selenium-webdriver (~> 3.0)
+    watir-scroll (0.3.0)
+      watir (>= 6.0)
+    watirsome (0.2.2)
+      watir (>= 6.0)
+    websocket (1.2.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  cucumber
+  require_all
+  rspec-expectations
+  watir
+  watir-scroll
+  watirsome
+
+BUNDLED WITH
+   1.15.0

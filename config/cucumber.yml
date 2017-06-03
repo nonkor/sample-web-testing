@@ -1,0 +1,4 @@
+common: --format pretty --format html --out=report.html --tags @declarative -r features/support
+plane: -p common -r features/step_definitions/plane_steps.rb
+pages: -p common -r features/step_definitions/page_steps.rb -r features/lib/page.rb -r features/pages
+default: -p pages
