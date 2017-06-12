@@ -1,0 +1,10 @@
+language: ruby
+os: osx
+addons:
+  chrome: stable
+
+before_install:
+  - gem update --system
+  - gem --version
+  - brew update
+  - brew outdated chromedriver || brew upgrade chromedriver

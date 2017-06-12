@@ -1,5 +1,5 @@
 Before do |_scenario|
-  @browser ||= Watir::Browser.new(settings[:browser])
+  launch_browser unless @browser
   Page.base_url = settings[:base_url] if defined?(Page)
 end
 
